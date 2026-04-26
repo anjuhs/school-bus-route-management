@@ -1,0 +1,14 @@
+[
+  {
+    "route": "Route A",
+    "driver": "John",
+    "stops": ["Stop 1", "Stop 2", "Stop 3"],
+    "time": "8:00 AM"
+  },
+  {
+    "route": "Route B",
+    "driver": "Mike",
+    "stops": ["Stop 4", "Stop 5"],
+    "time": "8:30 AM"
+  }
+]
