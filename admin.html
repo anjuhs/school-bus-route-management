@@ -4,18 +4,19 @@
   <title>Admin</title>
 </head>
 <body>
+  <div class="container">
+    <h2>👨‍💼 Admin Panel</h2>
 
-<h2>Admin Panel</h2>
+    <input id="route" placeholder="Route">
+    <input id="driver" placeholder="Driver">
+    <input id="time" placeholder="Time">
 
-<input id="route" placeholder="Route">
-<input id="driver" placeholder="Driver">
-<input id="time" placeholder="Time">
+    <button onclick="addRoute()">Add Route</button>
 
-<button onclick="addRoute()">Add</button>
+    <div id="routes"></div>
+  </div>
 
-<div id="routes"></div>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
+
