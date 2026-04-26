@@ -1,12 +1,8 @@
 body {
-  font-family: Arial;
   background: #0d1117;
   color: #9be9ff;
+  font-family: Arial;
   text-align: center;
-}
-
-h1 {
-  color: #00f7ff;
 }
 
 input, button {

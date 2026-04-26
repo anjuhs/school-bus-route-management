@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bus Routes</title>
+  <title>Admin</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body onload="displayRoutes()">
 
-<h1>🚌 School Bus Routes</h1>
+<h1>🔧 Admin Panel</h1>
+
+<input id="route" placeholder="Route">
+<input id="driver" placeholder="Driver">
+<input id="time" placeholder="Time">
+<button onclick="addRoute()">Add Route</button>
 
 <div id="routes"></div>
-
-<script src="script.js"></script>
 
 </body>
 </html>
